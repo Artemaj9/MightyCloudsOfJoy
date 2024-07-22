@@ -553,7 +553,7 @@ class ViewController: UIViewController {
 
     let collectionView: UICollectionView
     let weatherIcons = ["sun", "rain", "snow", "lightning", "mist", "wind"]
-    let weatherEffects = ["sunShader", "rainShader", "snowShader", "lightningShader", "cloudShader", "windShader"]
+    let weatherEffects = ["sunShader", "rainShader", "snowShader", "lightningShader", "cloudShader", "cloudSunShader"]
     var weatherViews: [WeatherMetalView] = []
     var currentWeatherIndex: Int = 0
 

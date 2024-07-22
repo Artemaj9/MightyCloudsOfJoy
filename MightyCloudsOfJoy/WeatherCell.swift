@@ -60,7 +60,7 @@ class WeatherCell: UICollectionViewCell {
         ])
         
         contentView.backgroundColor = .clear
-        contentView.layer.borderColor = UIColor.red.cgColor
+        contentView.layer.borderColor = UIColor.green.withAlphaComponent(0.2).cgColor
         contentView.layer.borderWidth = 0
     }
 
